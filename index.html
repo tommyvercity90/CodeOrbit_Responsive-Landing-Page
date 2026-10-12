@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeOrbit - Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#home" class="logo">CodeOrbit<span>.</span></a>
+
+        <button class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links">
+            ☰
+        </button>
+
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="nav-cta">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="tagline">YOUR NEXT BIG IDEA STARTS HERE</span>
+
+                <h1>Build Something <span>Amazing.</span></h1>
+
+                <p>
+                    Turn your ideas into reality with a simple,
+                    modern, and powerful digital experience.
+                    Your journey to something extraordinary starts today.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        Get Started &rarr;
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        Explore More
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <h3>10K+</h3>
+                        <p>Happy Users</p>
+                    </div>
+                    <div>
+                        <h3>99%</h3>
+                        <p>Satisfaction</p>
+                    </div>
+                    <div>
+                        <h3>24/7</h3>
+                        <p>Support</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <div class="glow"></div>
+                <div class="visual-card">
+                    <div class="card-top">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+
+                    <div class="visual-icon">✦</div>
+                    <h2>Think Bigger.</h2>
+                    <p>Create. Innovate. Inspire.</p>
+
+                    <div class="progress-track">
+                        <div class="progress-fill"></div>
+                    </div>
+
+                    <div class="card-footer">
+                        <span>YOUR POTENTIAL</span>
+                        <strong>100%</strong>
+                    </div>
+                </div>
+
+                <div class="floating-badge badge-one">✧ Stay Creative</div>
+                <div class="floating-badge badge-two">🚀 Keep Growing</div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="section-heading">
+                <span class="tagline">WHY CHOOSE CodeOrbit?</span>
+                <h2>Everything you need to <span>grow.</span></h2>
+                <p>Simple solutions designed to help you do more.</p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast & Simple</h3>
+                    <p>Enjoy a smooth experience with a clean and intuitive design.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Fully Responsive</h3>
+                    <p>Looks great on mobile phones, tablets, laptops, and desktops.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>Modern Design</h3>
+                    <p>Discover elegant layouts, subtle animations, and interactive details.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div>
+                <span class="tagline">MADE FOR YOUR IDEAS</span>
+                <h2>Small steps today.<br><span>Big things tomorrow.</span></h2>
+            </div>
+            <p>
+                Great things begin with a single step. Nova gives your
+                ideas a clean starting point so you can focus on what
+                matters most: creating something meaningful.
+            </p>
+        </section>
+
+        <!-- Call To Action -->
+        <section class="contact" id="contact">
+            <span class="tagline">READY TO BEGIN?</span>
+            <h2>Your next chapter starts now.</h2>
+            <p>Take the first step and bring your next idea to life.</p>
+            <a href="mailto:hello@example.com" class="btn btn-primary">
+                Let's Connect &rarr;
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">CodeOrbit<span>.</span></a>
+        <p>&copy; <span id="year"></span> CodeOrbit. Built with creativity.</p>
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
